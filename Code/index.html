@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="full_wr header">
+        <div class="main_wr child">
+            <div class="nav">
+                <img src="img/puja.jpg" alt="puja">
+
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#service">services</a></li>
+                    <li><a href="#portfolio">portfolio</a></li>
+                    <li><a href="#blog">blog</a></li>
+                    <li><a href="#contact">contact</a></li>
+                </ul>
+            </div>
+            <div class="h_main">
+                <h1>Hey there!<br> I am puja saha<br> creative designer.</h1>
+                <p>I CREATE WEB & GRAPHIC DESIGN .</p>
+                <button>LETS STARTED</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="full_wr about" id="about">
+        <div class="main_wr child1">
+            <img src="img/pro.jpg" alt="puja"></div>
+        <div class="main_wr child2">
+            <h2>
+                I'm creative UI/UX designer<br>
+                developer based in new york.</h2>
+            <p>Hi! My name is Puja Saha. I am a Web designer, and I'm very passionate and dedicated to my work. With 2 years experience as a professional graphic designer, I have acquired the skills and knowledge necessary to make your project a success.
+
+            </p>
+              
+            <div class="skill">
+                   
+                <p>Photoshop</p>
+                <div class="container">
+                    <div class="skills photo">100%</div>
+                </div>
+                   
+                <p>Html</p>
+                <div class="container">
+                    <div class="skills html">90%</div>
+                </div>
+
+                <p>CSS</p>
+                <div class="container">
+                    <div class="skills css">80%</div>
+                </div>
+
+                <p>JavaScript</p>
+                <div class="container">
+                    <div class="skills js">65%</div>
+                </div>
+
+                <p>PHP</p>
+                <div class="container">
+                    <div class="skills php">60%</div>
+                </div>
+                  <button class="cv">Download CV</button>
+           </div>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+    
+     <div class="full_wr service" id="service">
+        <h2>MY SERVICES</h2>
+         <div class="main_wr">
+             <div class="main">
+                 <div class="first">
+                     <img src="img/1.jpg">
+                     <h3>Graphics Design</h3>
+                     <p>Graphic Design, Visual Identity and Branding Solutions.Logo design, marketing collateral, multimedia presentations, product packaging, indoor and outdoor signage, point of sale materials, and much more.</p>
+                 </div>
+             </div>
+
+             <div class="main">
+                 <div class="second">
+                     <img src="img/1.jpg">
+
+                     <h3>Web Design</h3>
+                     <p>We design your websites to take your business to the top of the market. We keep our systems updated, thus architect your website with trending designs.</p>
+                 </div>
+             </div>
+
+             <div class="main">
+                 <div class="third">
+                     <img src="img/1.jpg">
+                     <h3> App Development</h3>
+                     <p>We find creative ways to generate from your apps- from in-app purchases to in-app advertising.Really!From ideation to maintenance,the course charted and the tools laid out. </p>
+                 </div>
+             </div>
+
+         </div>
+     </div>
+          <div class="clearfix"></div>
+          
+        <div class="full_wr profile"id="portfolio">
+            <div class="main_wr">
+                <div class="pro_text">
+                    <h2>Works like a Portfolio</h2>
+                   <ul>
+                    <li><a href="#all">All</a></li>
+                    <li><a href="#web">Web</a></li>
+                    <li><a href="#photo">Photoshop</a></li>
+                    
+                </ul>
+                </div>
+                <div class="pro_img">
+                    <img src="img/book.jpg" alt=""title="web">
+                    <img src="img/book.jpg" alt=""title="graphics">
+                    <img src="img/book.jpg" alt=""title="web">
+
+
+                </div>
+
+                <div class="pro_img1">
+
+                    <img src="img/sunset.jpg" alt="">
+                    <img src="img/sunset.jpg" alt="">
+                    <img src="img/sunset.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+         <!--contact-->
+        <div class="full_wr contact">
+           
+              <div class="clearfix"></div>
+            <div class="main_wr">
+                <div class="contact_text">
+                    <h3>Stay With Me</h3>
+                    <p>We ensure quality & support</p>
+                    <form class="form">
+                        <input type="text" placeholder="Full Name"><br>
+                        <input type="email" placeholder="Email Adress"><br>
+                        <textarea type="text" placeholder="Message"></textarea><br>
+                        <input type="checkbox">subscribe newsletter
+                        <button type="submit">Send</button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+        <div class="clearfix"></div>
+         <div class="full_wr footer">
+           <div class="main_wr">
+           <div class="footer_l">
+               <p>copyright 2019,portfolio</p>
+          </div>
+           <div class="footer_r">
+              <ul>
+                  <li><a href="https://www.facebook.com/">facebook</a></li>
+                   <li><a href="https://www.behance.net/">Behance</a></li>
+                    <li><a href="https://dribbble.com/">Dribble</a></li>
+              </ul>
+           </div>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+        <script src="js/jquery-3.4.1.min.js"></script>
+         <script src="js/custom.js"></script>
+        <script>
+             $(".second").click(function(){
+             $(".first").toggle(3000);
+             })
+             $(".third").click(function(){
+             $(".second").toggle(3000);
+
+             })
+             $(".first").click(function(){
+             $(".third").toggle(3000);
+             })
+             $(".cv").click(function(){
+             alert("Succesfuly Downloaded");
+             })
+            
+    </script>
+</body>
+
+</html>
